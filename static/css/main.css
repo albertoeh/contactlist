@@ -1,0 +1,100 @@
+
+
+body { 
+    background-color: #CCC;
+    font-family: Arial;
+    font-size: 12px;  
+    margin-left: 0px;
+    line-height: 1;
+    padding: 0px;
+    margin: 0px;
+}
+
+a {
+    cursor: pointer;
+    color: #0b4071;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+
+.header{
+    padding: 10px 30px;
+    background-color: #444;
+    color: #fff;
+    text-align: right;    
+}
+
+.header a{
+    color: #fff;
+}
+
+.content{
+    width: 700px;
+    margin: 50px auto;
+}
+
+.category_box{
+   padding: 20px 20px 10px 20px;
+}
+
+#formNewContact legend{
+    background-color: #456;
+    color: #fff;
+    padding: 5px;
+}
+
+#formNewContact fieldset{
+    background-color: #678;
+    padding: 10px 0px 20px 20px;
+    border: 1px solid #999;
+    color: #fff;
+}
+
+#formNewContact  input[type=text]{
+    width: 200px;
+    margin-right: 10px;
+}
+
+table{
+    width: 700px;
+    border-collapse:collapse;
+    border: 1px solid #999;
+    text-align: left;
+}
+
+td{
+    border-bottom: 1px dotted #999;
+    padding: 5px;
+}
+
+td.op{
+    width: 120px;
+}
+
+td.tel{
+    text-align: right;
+    padding-right: 30px;
+}
+
+#header_row{
+    background-color: #445566;
+    color: #fff;
+}
+
+#contactPopup label{
+    display: inline-block;
+    width: 100px;
+    padding: 8px 0px;
+    vertical-align: top;
+}
+
+#contactCategories{
+    display: inline-block;
+}
+
+tr:nth-child(odd){ background: #dae5ee;}
+tr:nth-child(even){ background: #eaf0f5;}
